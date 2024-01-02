@@ -1,0 +1,6 @@
+# This is the EULA file. (End User License Agreement)
+#
+# Below, is a value that indicates that you agree to all of our terms and conditions
+# for using this application. If you do, replace 'Unsigned' to 'Signed' or '1'.
+
+eula_state=Signed

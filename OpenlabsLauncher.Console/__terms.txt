@@ -1,0 +1,52 @@
+End-User License Agreement (EULA) for SteamAPI Manifest Downloader
+
+PLEASE READ THIS END-USER LICENSE AGREEMENT ("EULA") CAREFULLY BEFORE USING THE STEAMAPI MANIFEST DOWNLOADER (THE "SOFTWARE"). 
+BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA. IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, DO NOT USE THE SOFTWARE.
+
+License Grant
+Subject to the terms and conditions of this EULA, Openlabs ("Licensor") grants you a limited, non-exclusive, 
+non-transferable, and revocable license to use the Software for the sole purpose of downloading old manifests from SteamAPI.
+
+User Authentication
+In order to use the Software, you may be required to input your Steam username and password ("Credentials"). These Credentials are 
+solely used to access SteamAPI on your behalf for the purpose of downloading manifests. Licensor does not store or transmit your 
+Credentials to any third party. Your Credentials are encrypted and stored securely in a file named "det.bin" on your local device.
+
+Disclaimer of Responsibility
+You understand and acknowledge that the use of the Software carries inherent risks. Licensor shall not be 
+responsible for any consequences, including but not limited to, the following:
+
+a. Any changes or modifications to your Steam account, including but not limited to bans, penalties, 
+   or account suspensions, as a result of using the Software.
+b. Any loss of data, account information, or in-game items as a result of using the Software.
+c. Any actions taken by Steam, Valve Corporation, or any other third party in response to your use of 
+   the Software.
+d. Any unauthorized access, use, or disclosure of your Credentials or any other information stored 
+   in "det.bin" due to factors beyond Licensor's control, including but not limited to security breaches, 
+   malware, or system vulnerabilities.
+
+Termination
+This EULA is effective until terminated by you or Licensor. Your rights under this license will 
+terminate automatically without notice from Licensor if you fail to comply with any term(s) of this EULA. 
+Upon termination of this license, you shall cease all use of the Software and delete any copies of the Software from your device.
+
+Privacy
+Licensor is committed to protecting your privacy. Please refer to our Privacy Policy for 
+information about how we collect, use, and safeguard your data.
+
+Updates
+Licensor may, from time to time, provide updates or upgrades to the Software. You agree that such 
+updates or upgrades are subject to the terms of this EULA.
+
+Governing Law
+This EULA is governed by and construed in accordance with the laws of the United Kingdom. 
+Any disputes arising under or in connection with this EULA shall be subject to the exclusive 
+jurisdiction of the courts of the United Kingdom.
+
+Entire Agreement
+This EULA constitutes the entire agreement between you and Licensor regarding the Software 
+and supersedes all prior and contemporaneous agreements, understandings, representations, and warranties.
+
+By using the Software, you acknowledge that you have read and understood this EULA, agree 
+to be bound by its terms, and consent to the use of your Credentials as described herein. 
+If you do not agree to these terms, please do not use the Software.

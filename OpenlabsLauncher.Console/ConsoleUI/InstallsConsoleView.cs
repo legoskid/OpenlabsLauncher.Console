@@ -79,7 +79,7 @@ namespace OpenlabsLauncher.ConsoleUI
                     Directory.CreateDirectory(initialFolder);
 
                     initialFolder = Path.Combine(initialFolder, build.Manifest);
-                    Directory.CreateDirectory(initialFolder);;
+                    Directory.CreateDirectory(initialFolder);
 
                     SettingsManager.LocalBuilds.Add(
                         LocalOpenlabsBuild.Create(build, initialFolder));

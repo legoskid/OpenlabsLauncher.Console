@@ -79,13 +79,7 @@ namespace OpenlabsLauncher.ConsoleUI
                     Directory.CreateDirectory(initialFolder);
 
                     initialFolder = Path.Combine(initialFolder, build.Manifest);
-                    Directory.CreateDirectory(initialFolder);
-
-                    var select = new Select();
-                    select.InitialFolder = initialFolder;
-
-                    if (select.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                        initialFolder = select.Folder;
+                    Directory.CreateDirectory(initialFolder);;
 
                     SettingsManager.LocalBuilds.Add(
                         LocalOpenlabsBuild.Create(build, initialFolder));
@@ -129,7 +123,7 @@ namespace OpenlabsLauncher.ConsoleUI
                     });
                     Console.WriteLine("INFO: Created config");
 
-                    File.WriteAllText(Path.Combine(DepotDownloader.Latest, "steam_appid.txt"), "471710");
+                    File.WriteAllText(Path.Combine(localBuild.BuildPath, "steam_appid.txt"), "471710");
                     Console.WriteLine("INFO: Created steam_appid");
 
                     if (!VerifyBuild(localBuild))
@@ -143,8 +137,8 @@ namespace OpenlabsLauncher.ConsoleUI
         private static bool VerifyBuild(LocalOpenlabsBuild localBuild)
         {
             var plugins = Path.Combine(localBuild.BuildPath, "BepInEx", "Plugins");
-            var config = Path.Combine(DepotDownloader.Latest, "zinc.cfg");
-            var steamAppId = Path.Combine(DepotDownloader.Latest, "steam_appid.txt");
+            var config = Path.Combine(localBuild.BuildPath, "zinc.cfg");
+            var steamAppId = Path.Combine(localBuild.BuildPath, "steam_appid.txt");
 
             if (!Directory.Exists(plugins))
             {

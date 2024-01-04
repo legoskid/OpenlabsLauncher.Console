@@ -168,7 +168,7 @@ namespace OpenlabsInstaller
             Console.WriteLine();
             Console.WriteLine("Once you press enter, your credentials will be stored in a user info file. ");
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write("DON'T SHARE THE FILE TO ANYBODY even if they're helping you as it has YOUR STEAM PASSWORD!!!");
+            Console.WriteLine("DON'T SHARE THE FILE TO ANYBODY even if they're helping you as it has YOUR STEAM PASSWORD!!!");
             Console.ResetColor();
 
             Console.ForegroundColor = ConsoleColor.Red;
